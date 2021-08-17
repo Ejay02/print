@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+<div>
+<p>Click the button to demonstrate the prompt box.</p>
+
+<button onclick="myFunction()">Click Me</button>
+
+<p id="demo"></p>
+</div>
+<script>
+function myFunction() {
+  var person = prompt("Hello, Im Ejiro., Whats your name??", "John Snow");
+  if (person != null) {
+    document.getElementById("demo").innerHTML =
+    "Hello " + person + "! How are you today?";
+  }
+}
+</script>
+
+</body>
+</html>
